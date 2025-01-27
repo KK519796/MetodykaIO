@@ -50,7 +50,7 @@ label_year = tk.Label(root, text="Czy posiadasz prawo jazdy?")
 label_year.grid(row=11, column=0, padx=10, pady=5, sticky="w")
 entry_year = tk.Entry(root, width=40)
 entry_year.grid(row=11, column=1, padx=10, pady=5)
-
+# tu wkleic kod
 # Przycisk zapisu
 button_save = tk.Button(root, text="Zapisz", command=lambda x:x)
 button_save.grid(row=16, column=0, columnspan=2, pady=10)
